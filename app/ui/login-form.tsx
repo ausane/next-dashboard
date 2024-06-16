@@ -17,14 +17,14 @@ export default function LoginForm() {
 
   return (
     <form action={dispatch} className="space-y-3">
-      <div className="flex-1 rounded-lg bg-gray-50 px-6 pb-4 pt-8">
+      <div className="flex-1 rounded-lg bg-neutral-500 px-6 pb-4 pt-8">
         <h1 className={`${lusitana.className} mb-3 text-2xl`}>
           Please log in to continue.
         </h1>
         <div className="w-full">
           <div>
             <label
-              className="mb-3 mt-5 block text-xs font-medium text-gray-900"
+              className="mb-3 mt-5 block text-xs font-medium text-gray-100"
               htmlFor="email"
             >
               Email
@@ -43,7 +43,7 @@ export default function LoginForm() {
           </div>
           <div className="mt-4">
             <label
-              className="mb-3 mt-5 block text-xs font-medium text-gray-900"
+              className="mb-3 mt-5 block text-xs font-medium text-gray-100"
               htmlFor="password"
             >
               Password
